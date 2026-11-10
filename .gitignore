@@ -1,6 +1,5 @@
 # Clients folder
 clients/
-.env
 # holds IdP client secrets; config.example.json is the tracked template
 /config.json
 __debug*
@@ -21,3 +20,5 @@ docs/specs
 # gate build output; CI runs it with `go run`
 /tools/cla/gate/gate
 /security-audit
+config.bat
+node_modules
